@@ -2,17 +2,15 @@
 
 link: https://www.kaggle.com/code/noragan/an-lise-das-mensagens-do-telegram-usando-aws
 
-# Contexto
+## Contexto
 Este projeto tem como objetivo explorar como os dados gerados por interação com bots podem ser utilizados para gerar insights, focando na utilização de sistemas que capturam dados e processam as informações via AWS.
 
 https://sa-east-1.console.aws.amazon.com/console/home?region=sa-east-1#
 
-## Arquitetura
+### Arquitetura
 
-Foi criado um bot no Telegram e inserido a um grupo teste, para que ele pudesse capturar as mensagens que eu enviava. Esse bot é a parte essencial do projeto, pois é ele quem vai pegar os dados brutos (**as mensagens**) que serão processadas eventualmente.
-
-Para isso, usei a **API de bots** do Telegram, que tem vários métodos que permitem ao bot acessar essas informações. Os principais utilizados foram:
-------
+Foi criado um bot no Telegram e inserido a um grupo teste, para que ele pudesse capturar as mensagens que eu enviava. Esse bot é a parte essencial do projeto, pois é ele quem vai pegar os dados brutos (*as mensagens*) que serão processadas eventualmente. Para isso, usei a *API* de bots do Telegram, que tem vários métodos que permitem ao bot acessar essas informações.
+___________________
 
 # CONCLUSÃO
 ##### *A análise realizada é um ótimo processo para verificar o melhor período de interação no grupo para fazer anúncios e passar avisos, para que assim a mensagem seja visualizada pelo maior número de pessoas possível*.
